@@ -15,7 +15,9 @@
       }
 
       htmlString += '</ul>';
-      document.getElementsByTagName('body')[0].innerHTML = htmlString;
+      let new_div = document.createElement("div");
+      new_div.innerHTML() = htmlString;
+      document.body.appendChild(new_div);
     })()
   </script>
 </head>
