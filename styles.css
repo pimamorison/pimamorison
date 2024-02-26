@@ -1,0 +1,29 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+    color: blue;
+}
+p {
+    border: 1px solid rebeccapurple;
+    padding: 40px;
+    margin: 0px;
+    color: red;
+}
+img {
+    width: 10%;
+    height: 10%;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width:10%;
+    text-align: center;
+    background-color: blue;
+    margin: 5px;
+    border: solid 2px rgb(20, 72, 76);
+}
